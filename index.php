@@ -11,6 +11,7 @@
 	<div class="loader"></div>
 	<h1>Conjetura Romero</h1>
 		<h2>Todo numero primo mayor que 37 elevado a la pontencia de 10 es PAR</h2>
+			<h3>Comprobacion del 1 al 100.000</h3>
 		<div class="imprimir" id="imprimir">
 			
 		</div>
