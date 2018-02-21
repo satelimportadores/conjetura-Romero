@@ -15,9 +15,10 @@ $(document).ready(function() {
 C_ROMERO = function(Arrayprimos){
 
 
-		for (var i = 0; i <= 30; i++) {
+		for (var i = 0; i <= 10000; i++) {
+			$(".loader").fadeIn("slow"); 
 			numerooriginal = Arrayprimos[i];
-			numero = numerooriginal^10;
+			numero = Math.pow(numerooriginal, 10)
 				if (numero % 2 == 0) {
 							log = $('#imprimir').html();
 							$('#imprimir').html(log+numerooriginal+'-^- '+numero+' ES PAR '+'<br>');
@@ -28,6 +29,7 @@ C_ROMERO = function(Arrayprimos){
 				}
 
 		};
-	
-            
+
+		$(".loader").fadeOut("slow"); 
+		   
 }
