@@ -15,7 +15,7 @@ $(document).ready(function() {
 C_ROMERO = function(Arrayprimos){
 
 
-		for (var i = 0; i <= 10000; i++) {
+		for (var i = 0; i <= 9589; i++) {
 			$(".loader").fadeIn("slow"); 
 			numerooriginal = Arrayprimos[i];
 			numero = Math.pow(numerooriginal, 10)
