@@ -6,6 +6,7 @@
 	<title>Conjetura Romero</title>
 	<link rel="stylesheet" href="">
 	<link href="css/loader.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 	<div class="loader"></div>
@@ -15,7 +16,7 @@
 		<div class="imprimir" id="imprimir">
 			
 		</div>
-
+	<button type="button" id="calcular">Iniciar...</button>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/index.js"></script>
 </body>
